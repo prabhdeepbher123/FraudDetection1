@@ -12,7 +12,7 @@
         android:layout_width="245dp"
         android:layout_height="84dp"
         android:layout_gravity="center"
-        android:autofillHints="Enter The Guardian phone number "
+
         android:maxLength="10"
         android:inputType="number" />
 
