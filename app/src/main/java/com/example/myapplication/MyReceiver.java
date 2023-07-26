@@ -12,6 +12,7 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 import android.widget.Toast;
 import static com.example.myapplication.MainActivity.fu;
+import static com.example.myapplication.MainActivity2.lo;
 
 import androidx.core.app.NotificationCompat;
 
@@ -48,6 +49,8 @@ public class MyReceiver extends BroadcastReceiver {
                 }
                 mlist.add("http://");
                 mlist.add("Lottery");
+                mlist.add("hi");
+                mlist.add(lo);
                 for (int i = 0; i < mlist.toArray().length; i++) {
                     name = mlist.get(i);
                 }
